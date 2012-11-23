@@ -1,5 +1,5 @@
 class App < E
-  map '/contact'
+  map '/contact/send'
 
   @@mail_options = {
     :address        => 'smtp.mandrillapp.com',
